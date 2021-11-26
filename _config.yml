@@ -29,7 +29,7 @@ url: "https:julianfritzsch.de" # the base hostname & protocol for your site, e.g
 github_username:  julianfritzsch
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
