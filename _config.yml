@@ -48,10 +48,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Julian and I'm a PhD student with the Department of Engineering of the University of Applied Sciences of Western Switzerland and with the Department of Quantum Matter Physics (DQMP) of the University of Geneva.
+  Hi, I'm Julian and I'm a PhD student with the School of Engineering of the University of Applied Sciences of Western Switzerland and with the Department of Quantum Matter Physics (DQMP) of the University of Geneva.
   My research focuses on voltage frequency dynamics in large high-voltage power grids.
   I'm interested in understanding the mechanisms behind oscillations between geographically separated areas and the impact the energy transition has on them.
-  Furthermore, I work on model reduction and using physics informed machine learning for parameter estamation.
+  Furthermore, I work on model reduction and using physics informed machine learning for parameter estimation.
 
   You can find our group website under <a href="https://etranselec.ch" target="_blank">https://etranselec.ch</a>
 
@@ -159,19 +159,6 @@ content:
       - layout: top
         title: Long Wavelength Coherence in Well Connected Power Grids
         sub_title: Dynamics Days Europe 2021 - Nice
-
-
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-  #
-  #     Look at this cool image  
-  #     ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
