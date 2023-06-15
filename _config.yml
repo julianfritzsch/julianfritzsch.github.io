@@ -1,0 +1,189 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Julian Fritzsch
+title: PhD Student
+email: contact at julianfritzsch.de
+website: www.julianfritzsch.de
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+# twitter_username: facespics
+github_username:  julianfritzsch
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: julianfritzsch
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+orcid_username: 0000-0001-6230-7014
+
+# Additional icon links
+additional_links:
+- title: Google Scholar
+  icon: ai ai-google-scholar
+  url: https://scholar.google.com/citations?user=Fi-eKpYAAAAJ&hl=en
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Julian and I'm a PhD student with the Department of Engineering of the University of Applied Sciences of Western Switzerland and with the Department of Quantum Matter Physics (DQMP) of the University of Geneva.
+  My research focuses on voltage frequency dynamics in large high-voltage power grids.
+  I'm interested in understanding the mechanisms behind oscillations between geographically separated areas and the impact the energy transition has on them.
+  Furthermore, I work on model reduction and using physics informed machine learning for parameter estamation.
+
+  You can find our group website under <a href="https://etranselec.ch" target="_blank">https://etranselec.ch</a>
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Université de Genève
+        caption: since 2020
+        sub_title: PhD in Physics
+        # link_text: Project Website
+        description: | # this will include new lines to allow paragraphs
+          Working on my PhD thesis in the group of <a href="https://etranselec.ch" target="_blank">Prof. Philippe Jacquod</a>.
+      - layout: left
+        title: Julius-Maximilans-Unveristät Würzburg
+        caption: 2017-2020
+        sub_title: M.Sc. in Physics
+        # link_text: Project Website
+        description: | # this will include new lines to allow paragraphs
+          Focus on theoretical physics with classes on string theory and gauge/gravity duality. I've written my Master's thesis entitled "Quasinormal modes of holographics superconductors" in the group of <a href="https://www.physik.uni-wuerzburg.de/tp3/startseite/" target="_blank">Prof. Johanna Erdmenger</a>.
+      - layout: left
+        title: University of Texas at Austin
+        caption: 2017-2018
+        sub_title: Exchange student
+        description: |
+          I spent the first two semesters of my Master's degree at UT Austin. I took classes on, among others, elemental particle physics, quantum field theory, solid state physics, and a class on astro-physics with Steven Weinberg.
+      - layout: left
+        title: Julius-Maximilans-Unveristät Würzburg
+        caption: 2014-2017
+        sub_title: B.Sc. in Physics
+        # link_text: Project Website
+        description: | # this will include new lines to allow paragraphs
+          I've written my Bachelor's thesis entitled "AdS/CFT und schwarze Löcher" ("AdS/CFT and black holes") in the group of <a href="https://www.physik.uni-wuerzburg.de/tp3/startseite/" target="_blank">Prof. Johanna Erdmenger</a>.
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: The Grengiols-Saflischtal Photovoltaic Solar Farm&#58; an Independent Analysis
+        link: https://www.researchgate.net/publication/364965517_The_Grengiols-Saflischtal_Photovoltaic_Solar_Farm_an_Independent_Analysis
+        link_text: Reasearchgate
+        sub_title: Julian Fritzsch, Philippe Jacquod, Laurent Pagnier
+        # caption: November 2017 - Present
+        description: | # this will include new lines to allow paragraphs
+          With the current energy crisis affecting Europe and Switzerland in particular, efficient new generations of electricpower are urgently needed.
+          In this context, a number of proposals has been put forward to increase our country’s renewable electricity production.
+          One such project is the Grengiols–Saflischtal solar power plant.
+          The projectis still in an early developmental stage and quantitatively reliable numbers for power production capacity and annualenergy generation do not truly exist.
+          Given a potential area of 5 km<sup>2</sup>, an upper bound for the plant’s peak power is in the 1 GW<sub>p</sub> range, which, given the plant’s location and panel orientation may generate as much as 1.5 TWh to 2 TWh annually for bifacial photovoltaic panels.
+          These numbers sound rather optimistic, but regardless of their accuracy, electric power generation in the range of hundreds of megawatts can only be injected into the grid at extra-high voltages of 220 kV or 380 kV, therefore, a question that naturally arises is whether Switzerland’s transmission gridcan safely absorb this additional power injection.
+          In this report, we evaluate the maximal peak electric power that a large solar photovoltaic farm in the Grengiols–Saflischtal area could safely inject into Switzerland’s extra-high voltage grid, without jeopardizing its stability.
+          We consider two different grids: (i) the current extra-high voltage grid operated by Swissgrid as of October 2022, and (ii) Swissgrid’s strategic grid 2025, which will be finalized no earlier than 2028.
+      - layout: top
+        title: Toward Model Reduction for Power System Transients With Physics-Informed PDE
+        link: https://ieeexplore.ieee.org/document/9796532
+        link_text: IEEE Access, vol. 10, pp. 65118-65125
+        sub_title: Laurent Pagnier, Julian Fritzsch, Philippe Jacquod, Michael Chertkov
+        description: |
+          This manuscript reports the first step towards building a robust and efficient model reduction methodology to capture transient dynamics in a transmission level electric power system.
+          Such dynamics is normally modeled on seconds-to-tens-of-seconds time scales by the so-called swing equations, which are ordinary differential equations defined on a spatially discrete model of the power grid.
+          Following Seymlyen (1974) and Thorpe, Seyler, and Phadke (1999), we suggest to map the swing equations onto a linear, inhomogeneous Partial Differential Equation (PDE) of parabolic type in two space and one time dimensions with time-independent coefficients and properly defined boundary conditions.
+          We illustrate our method on the synchronous transmission grid of continental Europe.
+          We show that, when properly coarse-grained, i.e., with the PDE coefficients and source terms extracted from a spatial convolution procedure of the respective discrete coefficients in the swing equations, the resulting PDE reproduces faithfully and efficiently the original swing dynamics.
+          We finally discuss future extensions of this work, where the presented PDE-based modeling will initialize a physics-informed machine learning approach for real-time modeling, n−1 feasibility assessment and transient stability analysis of power systems.
+      - layout: top
+        title: Long Wavelength Coherency in Well Connected Electric Power Networks
+        link: https://ieeexplore.ieee.org/document/9714354
+        link_text: IEEE Access, vol. 10, pp. 19986-19996
+        sub_title: Julian Fritzsch, Philippe Jacquod
+        description: |
+          We investigate coherent oscillations in large scale transmission power grids, where large groups of generators respond in unison to a distant disturbance.
+          Such long wavelength coherent phenomena are known as inter-area oscillations. Their existence in networks of weakly connected areas is well captured by singular perturbation theory.
+          However, they are also observed in strongly connected networks without time-scale separation, where applying singular perturbation theory is not justified. We show that the occurrence of these oscillations is actually generic.
+          Applying matrix perturbation theory, we show that, because these modes have the lowest oscillation frequencies of the system, they are only moderately sensitive to increased network connectivity between well chosen, initially weakly connected areas, and that their general structure remains the same, regardless of the strength of the inter-area coupling.
+          This is qualitatively understood by bringing together the standard singular perturbation theory and Courant’s nodal domain theorem.
+      - layout: top
+        title: Matrix perturbation theory of inter-area oscillations
+        link: https://ieeexplore.ieee.org/document/9682850/
+        link_text: 60th IEEE Conference on Decision and Control (CDC)
+        sub_title: Julian Fritzsch, Melvyn Tyloo, Philippe Jacquod
+        description: |
+          Interconnecting power systems has a number of advantages such as better electric power quality, increased reliability of power supply, economies of scales through production and reserve pooling and so forth.
+          Simultaneously, it may jeopardize the overall system stability with the emergence of so-called inter-area oscillations, which are coherent oscillations involving groups of rotating machines separated by large distances up to thousands of kilometers.
+          These often weakly damped modes may have harmful consequences for grid operation, yet despite decades of investigations, the mechanisms that generate them are still poorly understood, and the existing theories are based on assumptions that are not satisfied in real power grids where such modes are observed.
+          Here we construct a matrix perturbation theory of large interconnected power systems that clarifies the origin and the conditions for the emergence of inter-area oscillations.
+          We show that coherent inter-area oscillations emerge from the zero-modes of a multi-area network Laplacian matrix, which hybridize only weakly with other modes, even under significant capacity of the inter-area tie-lines, i.e. even when the standard assumption of area partitioning is not satisfied.
+          The general theory is illustrated on a two-area system, and numerically applied to the well-connected PanTaGruEl model of the synchronous grid of continental Europe.
+
+  - title: Presentations # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Long Wavelength Coherency from Matrix Perturbation Theory
+        sub_title: Conference on Complex Systems 2022 - Palma de Mallorce
+      - layout: top
+        title: Frequency Dynamics of Power Grids
+        sub_title: Young Researchers Day 2022 - University of Geneva
+      - layout: top
+        title: Long Wavelength Coherency in Well Connected Electric Power Networks (Poster)
+        sub_title: Annual Meeting of the Swiss Physical Society 2022 - Fribourg
+      - layout: top
+        title: Long Wavelength Coherence in Well Connected Power Grids
+        sub_title: Conference on Complex Systems 2021 - Lyon
+      - layout: top
+        title: Long Wavelength Coherence in Well Connected Power Grids
+        sub_title: Dynamics Days Europe 2021 - Nice
+
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  #
+  #     Look at this cool image  
+  #     ![Trees](images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+
+references_title: This website uses the <a href="https://github.com/sproogen/modern-resume-theme", target="_blank">modern-resume-theme</a>
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
